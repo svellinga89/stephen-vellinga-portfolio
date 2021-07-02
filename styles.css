@@ -1,0 +1,48 @@
+body {
+    background-color: Gainsboro;
+}
+
+p, li {
+    font-family: helvetica;
+    font-size: 15px;
+}
+
+.content {
+    max-width: 550px;
+    margin: auto;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    border: none;
+    padding: 5px 5px;
+    height: 100px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+a:link {
+    color: hsl(213, 93%, 32%);
+}
+
+a:visited {
+    color: hsl(213, 93%, 64%);
+}
+
+a:hover {
+    color: hsl(213, 93%, 16%);
+}
+
+a:active {
+    color: hsl(213, 93%, 48%);
+}

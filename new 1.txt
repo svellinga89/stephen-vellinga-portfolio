@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- Title -->
+<title>SV Portfolio Practice</title>
+      <!-- Meta -->
+<meta charset="UTF-8">
+<meta name="author" content="Stephen Vellinga">
+<meta name="viewport" content="width=device-width">
+</head>
+
+      <!-- Background Colors, Paragraph Font Styling, Page Centering, Title Padding, HR Spacing and Link Colorations -->
+<style>
+
+body {
+background-color:Gainsboro;
+}
+
+p, li {
+font-family:helvetica;
+font-size:15px;
+}
+
+.content {
+max-width: 550px;
+margin: auto;
+}
+
+.image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.title {
+border: none;
+padding: 5px 5px;
+height: 100px;
+width: 100%;
+background-color: darkgray;
+}
+
+hr {
+margin-top: 20px; 
+margin-bottom: 20px
+}
+
+a:link    { color:  hsl(213, 93%, 32%);}
+a:visited { color: hsl(213, 93%, 64%);}
+a:hover   { color: hsl(213, 93%, 16%);}
+a:active  { color: hsl(213, 93%, 48%);}
+</style>
+
+<body>
+      <!-- Title -->
+<div class="title">
+<h1 style="text-align:center;">Stephen Vellinga</h1>
+<h2 style="text-align:center;font-size:18px;">Hopeful Developer</h2>
+</div>
+
+<div class="content">
+<hr>
+      <!-- Intro and Hobbies -->
+<img src="https://www.indiewire.com/wp-content/uploads/2020/10/video-game-gift-guide.jpeg?w=780" width="400" height="300" class="image">
+<p>Hello, I am Stephen Vellinga and I am an aspiring developer living in Lamy, New Mexico.</p>
+<p>I am a lifetime manager and my hobbies include:</p>
+<ul>
+<li>Games (video games, board games, card games, sports games, all games) </li>
+<li>Movies and TV </li>
+<li>Drawing and Painting </li>
+</ul>
+
+<hr>
+      <!-- About me and why -->
+<h3 style="text-align:center;"> About Stephen </h3>
+<p>I am and always have been very much into gaming, I love playing games and thoroughly enjoy the culture and most of the community. I have met all types of people doing this
+and have always envied the people that get to use their keyboard outside of gaming while still enjoy the comfort of home. I am aiming to become an apt enough developer that I 
+can apply it to my passion for games and gaming in the future.</p>
+<p>Hopefully starting at Thinkful has been the right choice to access this dream, and so far it is going well.</p>
+
+<hr>
+      <!-- Contacts -->
+<h3  style="text-align:center;"> Contact Stephen </h3>
+
+<p>Connect with me via:</p>
+
+<ol>
+<li><a href="https://github.com/svellinga89"> GitHub </a></li>
+<li><a href="https://www.linkedin.com/in/stephen-vellinga-0a3371216/"> LinkedIn</a></li>
+<li><a href="svellinga89@gmail.com"> GMail </a></li>
+</ol>
+</div>
+</body>
+</html>
