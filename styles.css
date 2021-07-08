@@ -1,22 +1,38 @@
+/* Body Styling */
+
 body {
     background-color: Gainsboro;
 }
+
+/* H1H2 Styling */
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Paragraph Styling */
 
 p, li {
     font-family: helvetica;
     font-size: 15px;
 }
 
+/* Content Styling */
+
 .content {
     max-width: 550px;
     margin: auto;
 }
+
+/* Image Styling */
 
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Title Styling */
 
 .title {
     border: none;
@@ -26,10 +42,14 @@ p, li {
     background-color: darkgray;
 }
 
+/* HR Styling */
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px
 }
+
+/* Link Styling */
 
 a:link {
     color: hsl(213, 93%, 32%);
@@ -45,4 +65,8 @@ a:hover {
 
 a:active {
     color: hsl(213, 93%, 48%);
+}
+
+a.highlight:hover {
+    color: chartreuse;
 }
