@@ -53,20 +53,22 @@ hr {
 
 a:link {
     color: hsl(213, 93%, 32%);
+    text-transform: lowercase;
 }
 
 a:visited {
     color: hsl(213, 93%, 64%);
+    text-transform: uppercase;
 }
 
 a:hover {
     color: hsl(213, 93%, 16%);
 }
 
-a:active {
-    color: hsl(213, 93%, 48%);
+a:focus {
+    color: chartreuse;
 }
 
-a.highlight:hover {
-    color: chartreuse;
+a:active {
+    color: hsl(213, 93%, 48%);
 }
